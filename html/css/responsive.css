@@ -1,0 +1,80 @@
+/*-----------------------------------------------------
+Table of Contents
+
+- @media(max-width:991px)
+- @media(max-width:767px)
+- Start @media (max-width: 576px)
+
+
+------------------------------------------------------*/
+
+/* Start @media(max-width:991px) */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    padding: 20px 0;
+  }
+  .column-img-wrapper {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .column-img-wrapper::before {
+    display: none;
+  }
+  .column-img-wrapper img {
+    border: 6px dashed;
+  }
+  .two-imgs-wrapper {
+    margin-right: 0;
+  }
+  .team .team-member {
+    margin-bottom: 40px;
+  }
+  .testimonial-wrapper {
+    padding: 0 236px;
+  }
+  .testimonial-wrapper {
+    padding: 0;
+  }
+}
+
+/* Start @media(max-width:767px) */
+
+@media (max-width: 767px) {
+  .hero__title {
+    font-size: 48px;
+  }
+  .section__title,
+  .testimonials-title,
+  footer h4 {
+    font-size: 34px;
+  }
+  .social-media-icons,
+  .contact-infos {
+    text-align: center !important;
+  }
+  .contact-infos {
+    margin-top: 20px;
+  }
+}
+
+/* Start @media (max-width: 576px) */
+@media (max-width: 576px) {
+  .hero__title {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .section__title,
+  .testimonials-title,
+  footer h4 {
+    font-size: 30px;
+  }
+  .video .jarallax {
+    height: 450px;
+  }
+  .projects-wrapper {
+    height: 440px;
+  }
+}

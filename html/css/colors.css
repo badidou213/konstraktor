@@ -1,0 +1,154 @@
+/*-----------------------------------------------------
+Table of Contents
+
+- # color #fff white
+- # color #51544b body color
+- # color #cacaca gray
+- # color #ff5e14 orange
+- # color #001659 blue
+
+- # background #ff5e14 orange
+- # background #ff5000 dark orange
+- # background #f5dfdc light orange
+- # background #001659 blue
+
+- # border-color #ff5e14
+- # border-color #001659 blue
+
+------------------------------------------------------*/
+
+/*-----------------------------------------------------
+# color #fff
+------------------------------------------------------*/
+::-moz-selection {
+  color: #fff;
+}
+::selection {
+  color: #fff;
+}
+.top-header ul li,
+.top-header ul li a,
+.hero__title,
+.hero p,
+.main-btn,
+.main-btn:hover,
+.projects-button-prev,
+.projects-button-next,
+.project-content h3,
+.project-content p,
+.testimonials-title,
+.testimonial-comment,
+.testimonial-wrapper h4,
+.testimonial-wrapper span,
+footer,
+footer a,
+footer a:hover,
+.back-to-top,
+.back-to-top:hover {
+  color: #fff;
+}
+
+/*-----------------------------------------------------
+# color #51544b
+------------------------------------------------------*/
+body {
+  color: #51544b;
+}
+
+/*-----------------------------------------------------
+# color #cacaca
+------------------------------------------------------*/
+.hero__subtitle {
+  color: #cacaca;
+}
+
+/*-----------------------------------------------------
+# color #ff5e14
+------------------------------------------------------*/
+.section__subtitle,
+.inner-header nav li.active a,
+.inner-header nav li:hover a,
+.hero__title span,
+.services ul li i,
+.gallery-item .gallery-hover-item a,
+.gallery-item .gallery-hover-item a:hover,
+.testimonials .swiper-button-next,
+.testimonials .swiper-button-prev,
+.testimonials-title span {
+  color: #ff5e14;
+}
+
+/*-----------------------------------------------------
+# color #ff5000
+------------------------------------------------------*/
+
+.projects-button-prev:hover,
+.projects-button-next:hover {
+  background: #ff5000;
+}
+
+/*-----------------------------------------------------
+# color #001659
+------------------------------------------------------*/
+.section__title,
+.inner-header nav li a,
+.navbar-toggler,
+.team .team-content h4 {
+  color: #001659;
+}
+
+/*-----------------------------------------------------
+# background #ff5e14
+------------------------------------------------------*/
+::-moz-selection {
+  background-color: #ff5e14;
+}
+::selection {
+  background-color: #ff5e14;
+}
+.section__title::before,
+.top-header,
+.main-btn,
+.video .popup-youtube,
+.projects-button-prev,
+.projects-button-next,
+.testimonials .swiper-pagination-bullet-active,
+footer,
+.preloader,
+.back-to-top {
+  background-color: #ff5e14;
+}
+
+/*-----------------------------------------------------
+# background #f5dfdc
+------------------------------------------------------*/
+.our-feautures li i,
+.partners {
+  background-color: #f5dfdc;
+}
+
+/*-----------------------------------------------------
+# background #001659
+------------------------------------------------------*/
+.video .jarallax::before,
+.testimonials::before {
+  background-color: #001659;
+}
+
+/*-----------------------------------------------------
+# border-color #ff5e14
+------------------------------------------------------*/
+.column-img-wrapper img,
+.team .team-member .img,
+.testimonial-info img,
+.contact-us input:focus,
+.contact-us textarea:focus {
+  border-color: #ff5e14 !important;
+}
+
+/*-----------------------------------------------------
+# border-color #001659
+------------------------------------------------------*/
+.column-img-wrapper::before {
+  border-color: #001659;
+}
